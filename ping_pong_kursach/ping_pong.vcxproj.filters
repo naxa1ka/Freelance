@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\BaseFigures">
+      <UniqueIdentifier>{d94a454b-532a-4501-a028-b9ddd4c868c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\BaseFigures">
+      <UniqueIdentifier>{882dcc69-0cab-4673-980d-d92fcd7b985e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Platforms">
+      <UniqueIdentifier>{c39431d7-c321-4f81-b6b2-36b27ee9304e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\IShape">
+      <UniqueIdentifier>{eb33c189-ff31-4581-8598-6b1216479700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\IColor">
+      <UniqueIdentifier>{936cd5a1-8930-42af-aa9a-ec63da1db85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Platforms">
+      <UniqueIdentifier>{e91eea19-ec27-4b4e-ac8e-0f7137fba894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utils">
+      <UniqueIdentifier>{fe447541-f39f-48b6-8e2d-d9fbc7488d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Ball">
+      <UniqueIdentifier>{ed9b78b5-a1bf-46c8-bacc-8a5f85746859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utils">
+      <UniqueIdentifier>{baf48bdb-d0b3-4ee1-b785-702c1d8e0bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Ball">
+      <UniqueIdentifier>{7dafcd02-31a6-424d-943f-fb5fce6746d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ping_pong.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Исходные файлы\BaseFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы\BaseFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Исходные файлы\BaseFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Исходные файлы\BaseFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionRect.cpp">
+      <Filter>Исходные файлы\BaseFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenColor.h">
+      <Filter>Файлы заголовков\IColor</Filter>
+    </ClCompile>
+    <ClCompile Include="RedColor.h">
+      <Filter>Файлы заголовков\IColor</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Исходные файлы\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPlatform.cpp">
+      <Filter>Исходные файлы\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentPlatform.cpp">
+      <Filter>Исходные файлы\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="GetConsolWindow.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Исходные файлы\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongPlatform.cpp">
+      <Filter>Исходные файлы\Platforms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Location.h">
+      <Filter>Файлы заголовков\BaseFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков\BaseFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionRect.h">
+      <Filter>Файлы заголовков\BaseFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Файлы заголовков\BaseFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Файлы заголовков\BaseFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackColor.h">
+      <Filter>Файлы заголовков\IColor</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueColor.h">
+      <Filter>Файлы заголовков\IColor</Filter>
+    </ClInclude>
+    <ClInclude Include="IColorable.h">
+      <Filter>Файлы заголовков\IColor</Filter>
+    </ClInclude>
+    <ClInclude Include="IShape.h">
+      <Filter>Файлы заголовков\IShape</Filter>
+    </ClInclude>
+    <ClInclude Include="BallShape.h">
+      <Filter>Файлы заголовков\IShape</Filter>
+    </ClInclude>
+    <ClInclude Include="RectShape.h">
+      <Filter>Файлы заголовков\IShape</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleShape.h">
+      <Filter>Файлы заголовков\IShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Файлы заголовков\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPlatform.h">
+      <Filter>Файлы заголовков\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="PLATFORMTYPE.h">
+      <Filter>Файлы заголовков\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentPlatform.h">
+      <Filter>Файлы заголовков\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="GetConsolWindow.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Файлы заголовков\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Файлы заголовков\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongPlatform.h">
+      <Filter>Файлы заголовков\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="RombShape.h">
+      <Filter>Файлы заголовков\IShape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

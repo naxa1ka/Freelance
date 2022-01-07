@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="360.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Adding.AddingFootballer">
+   <children>
+      <Label layoutX="41.0" layoutY="14.0" text="Добавление нового футболиста">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" layoutX="237.0" layoutY="80.0" />
+      <TextField fx:id="allGamesField" layoutX="237.0" layoutY="117.0" />
+      <TextField fx:id="successGamesField" layoutX="237.0" layoutY="158.0" />
+      <ComboBox fx:id="specializationsComboBox" layoutX="237.0" layoutY="202.0" prefWidth="150.0" />
+      <Label layoutX="30.0" layoutY="83.0" text="Введите имя:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="120.0" text="Введите кол-во игр:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="161.0" text="Введите кол-во успешных игр:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="205.0" text="Выберите специализацию:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutY="53.0" prefHeight="6.0" prefWidth="428.0" />
+      <Button layoutX="237.0" layoutY="289.0" mnemonicParsing="false" onAction="#onPressedAddButton" prefHeight="25.0" prefWidth="149.0" text="Добавить" />
+      <ComboBox fx:id="commandsComboBox" layoutX="237.0" layoutY="249.0" prefWidth="150.0" />
+      <Label layoutX="32.0" layoutY="252.0" text="Выберите команду:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

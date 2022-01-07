@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Base">
+      <UniqueIdentifier>{9b70e803-9a4c-46a0-82c8-236b0326c501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Base">
+      <UniqueIdentifier>{ffbb303c-05e5-4d8e-8e8a-831ac4d8465e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utils">
+      <UniqueIdentifier>{1d7f69c3-ae15-4418-abcd-138caa359d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utils">
+      <UniqueIdentifier>{5fdda562-f491-4334-a87c-e6a655c31e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Car">
+      <UniqueIdentifier>{970790ee-e1d7-41b7-96fc-9f8a725cf931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Car">
+      <UniqueIdentifier>{0877b1f5-8913-458d-aa4b-860e771d5798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Car\Wheel">
+      <UniqueIdentifier>{42491bb9-3567-4dba-acc3-6e57280ccb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Car\Roof">
+      <UniqueIdentifier>{39004462-4ccf-4060-b4f9-fc8335cd6296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Car\Body">
+      <UniqueIdentifier>{bdeb3848-108b-4b36-bc05-49e4ce31190a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Color">
+      <UniqueIdentifier>{1f9f7403-b48e-42fa-93d5-4d133c1ae0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Obstacle">
+      <UniqueIdentifier>{dc53362f-a13a-446f-b8bf-7778b878b354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Obstacle">
+      <UniqueIdentifier>{a190e60a-0699-44f8-b70c-04edfd64dc70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Исходные файлы\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionRect.cpp">
+      <Filter>Исходные файлы\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GetConsolWindow.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Исходные файлы\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Исходные файлы\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="DecreaseObstacle.cpp">
+      <Filter>Исходные файлы\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="IncreaseObstacle.cpp">
+      <Filter>Исходные файлы\Obstacle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CollisionRect.h">
+      <Filter>Файлы заголовков\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Файлы заголовков\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GetConsolWindow.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Файлы заголовков\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="IWheel.h">
+      <Filter>Файлы заголовков\Car\Wheel</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareWheel.h">
+      <Filter>Файлы заголовков\Car\Wheel</Filter>
+    </ClInclude>
+    <ClInclude Include="RectWheel.h">
+      <Filter>Файлы заголовков\Car\Wheel</Filter>
+    </ClInclude>
+    <ClInclude Include="IRoof.h">
+      <Filter>Файлы заголовков\Car\Roof</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRoof.h">
+      <Filter>Файлы заголовков\Car\Roof</Filter>
+    </ClInclude>
+    <ClInclude Include="IBody.h">
+      <Filter>Файлы заголовков\Car\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBody.h">
+      <Filter>Файлы заголовков\Car\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="RectBody.h">
+      <Filter>Файлы заголовков\Car\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="RectRoof.h">
+      <Filter>Файлы заголовков\Car\Roof</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenColor.h">
+      <Filter>Файлы заголовков\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="IColorable.h">
+      <Filter>Файлы заголовков\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueColor.h">
+      <Filter>Файлы заголовков\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackColor.h">
+      <Filter>Файлы заголовков\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Файлы заголовков\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleType.h">
+      <Filter>Файлы заголовков\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="DecreaseObstacle.h">
+      <Filter>Файлы заголовков\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="IncreaseObstacle.h">
+      <Filter>Файлы заголовков\Obstacle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="364.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.ListCountryController">
+   <children>
+      <Label layoutX="13.0" layoutY="13.0" text="Список стран в данной коллекции">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="13.0" layoutY="54.0" prefHeight="312.0" prefWidth="338.0">
+        <columns>
+          <TableColumn fx:id="nameCountry" prefWidth="337.6000122070312" text="Название страны" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

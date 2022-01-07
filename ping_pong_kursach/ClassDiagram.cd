@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Platform" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Platform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionRect" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAIAAAAAAEEAAAAAAAgAEAABAAAAAAAAAAIA=</HashCode>
+      <FileName>CollisionRect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAYAAAAAAAYAA=</HashCode>
+      <FileName>Location.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkAACEAAAAAAAAAAMAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rect" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEBAACCEAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Square" Collapsed="true">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAgAAgAAAA=</HashCode>
+      <FileName>Square.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ball" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAEAAAIAAAAAAMACCAAECQA8AABIg=</HashCode>
+      <FileName>Ball.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wall" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Wall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackColor" Collapsed="true">
+    <Position X="10.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>BlackColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlueColor" Collapsed="true">
+    <Position X="16" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>BlueColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenColor" Collapsed="true">
+    <Position X="12.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>GreenColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IColorable" Collapsed="true">
+    <Position X="13.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>IColorable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedColor" Collapsed="true">
+    <Position X="14.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>RedColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BallShape" Collapsed="true">
+    <Position X="12" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BallShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IShape" Collapsed="true">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RectShape" Collapsed="true">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RectShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriangleShape" Collapsed="true">
+    <Position X="15.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TriangleShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyPlatform" Collapsed="true">
+    <Position X="5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAQAQAAAAAAAAAAAAAAAAFAAEAAAgAACAAAAA=</HashCode>
+      <FileName>EnemyPlatform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrongPlatform" Collapsed="true">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>StrongPlatform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TransparentPlatform" Collapsed="true">
+    <Position X="6.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAgIAAAAAAA=</HashCode>
+      <FileName>TransparentPlatform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RombShape" Collapsed="true">
+    <Position X="17.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RombShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DIRECTION" Collapsed="true">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Direction.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PLATFORMTYPE" Collapsed="true">
+    <Position X="7" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PLATFORMTYPE.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

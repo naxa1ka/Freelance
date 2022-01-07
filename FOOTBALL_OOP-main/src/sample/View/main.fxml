@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.MainController">
+    <children>
+        <MenuBar VBox.vgrow="NEVER">
+            <menus>
+                <Menu mnemonicParsing="false" text=" Файл">
+                    <items>
+                        <Menu fx:id="saveMenu" mnemonicParsing="false" text=" Сохранить как...">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#onSaveXML" text="XML" />
+                                <MenuItem mnemonicParsing="false" onAction="#onSaveTXT" text="TXT" />
+                        <MenuItem mnemonicParsing="false" onAction="#onSaveHTML" text="HTML" />
+                        <MenuItem mnemonicParsing="false" onAction="#onSavePDF" text="PDF" />
+                            </items>
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/fontawesome/save-file-option.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                        </Menu>
+                  <Menu fx:id="uploadMenu" mnemonicParsing="false" text=" Открыть как...">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#onOpenXML" text="XML" />
+                        <MenuItem mnemonicParsing="false" onAction="#onOpenTXT" text="TXT" />
+                        <MenuItem mnemonicParsing="false" onAction="#onOpenHTML" text="HTML" />
+                        <MenuItem mnemonicParsing="false" onAction="#onOpenPDF" text="PDF" />
+                     </items>
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/fontawesome/open-folder.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Menu>
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" onAction="#onExit" text=" Выйти">
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/fontawesome/meh-face-emoticon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></MenuItem>
+                    </items>
+               <graphic>
+                  <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/fontawesome/file.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Menu>
+                <Menu fx:id="actionsMenu" mnemonicParsing="false" text=" Действия">
+               <items>
+                  <Menu fx:id="addMenuParent" mnemonicParsing="false" text=" Добавить...">
+                    <items>
+                        <MenuItem fx:id="addFootballMenu" mnemonicParsing="false" onAction="#onAddFootballPressed" text="Футболиста" />
+                      <MenuItem fx:id="addSpecMenu" mnemonicParsing="false" onAction="#onAddSpecPressed" text="Специализацию" />
+                        <MenuItem fx:id="addCommandMenu" mnemonicParsing="false" onAction="#onAddCommandPressed" text="Команду" />
+                        <MenuItem fx:id="addMatchMenu" mnemonicParsing="false" onAction="#onAddMatchPressed" text="Матч" />
+                    </items>
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/fontawesome/add-square-button.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Menu>
+                  <Menu fx:id="editMenuParent" mnemonicParsing="false" text=" Редактировать...">
+                    <items>
+                      <MenuItem fx:id="editFootball" mnemonicParsing="false" onAction="#onEditFootball" text=" Футболиста" />
+                        <MenuItem fx:id="editSpec" mnemonicParsing="false" onAction="#onEditSpec" text=" Специализацию" />
+                        <MenuItem fx:id="editCommand" mnemonicParsing="false" onAction="#onEditCommand" text=" Команду" />
+                    </items>
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/fontawesome/edit-interface-sign.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Menu>
+                  <Menu fx:id="delMenuParent" mnemonicParsing="false" text=" Удалить...">
+                    <items>
+                      <MenuItem fx:id="deleteFootball" mnemonicParsing="false" onAction="#onDeleteFootball" text="Футболиста" />
+                        <MenuItem fx:id="deleteSpec" mnemonicParsing="false" onAction="#onDeleteSpec" text="Специализацию" />
+                        <MenuItem fx:id="deleteCommand" mnemonicParsing="false" onAction="#onDeleteCommand" text="Команду" />
+                    </items>
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/fontawesome/remove-symbol.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Menu>
+                  <MenuItem fx:id="permissionMenu" mnemonicParsing="false" onAction="#onPermissionPressed" text=" Выдать права">
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/fontawesome/briefcase.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </MenuItem>
+               </items>
+               <graphic>
+                  <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/fontawesome/cursor.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Menu>
+            <Menu fx:id="loggerMenu" mnemonicParsing="false" text=" Логирование">
+               <items>
+                  <MenuItem fx:id="openLogger" mnemonicParsing="false" onAction="#onOpenLoggerPressed" text=" Открыть">
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/fontawesome/open-folder.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </MenuItem>
+               </items>
+               <graphic>
+                  <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/fontawesome/archive-black-box.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Menu>
+            <Menu mnemonicParsing="false" text=" Календарь игр">
+               <graphic>
+                  <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/fontawesome/calendar-page-empty.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onClickCalendar" text=" Открыть">
+                     <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/fontawesome/open-folder.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </MenuItem>
+               </items>
+            </Menu>
+            </menus>
+        </MenuBar>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="375.0" prefWidth="696.0" VBox.vgrow="ALWAYS">
+            <children>
+                <TableView fx:id="table" layoutX="20.0" layoutY="19.0" prefHeight="337.0" prefWidth="674.0">
+                    <columns>
+                  <TableColumn fx:id="id" prefWidth="48.0" text="ID" />
+                        <TableColumn fx:id="name" prefWidth="107.99996948242188" text="Футболист" />
+                        <TableColumn fx:id="specialization" prefWidth="121.60005187988281" text="Специализация" />
+                        <TableColumn fx:id="allGames" prefWidth="100.0" text="Всего игр" />
+                        <TableColumn fx:id="successGames" minWidth="5.0" prefWidth="114.40005493164062" text="Успешных игр" />
+                  <TableColumn fx:id="command" minWidth="5.0" prefWidth="181.60009765625" text="Команда" />
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

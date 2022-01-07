@@ -1,0 +1,7 @@
+#pragma once
+enum DIRECTION {
+	RIGHT_DOWN,
+	RIGHT_UP,
+	LEFT_UP,
+	LEFT_DOWN
+};

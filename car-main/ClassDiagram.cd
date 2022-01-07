@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IRoof" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRoof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseBody" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseBody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IBody" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RectBody" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RectBody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RectRoof" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RectRoof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseRoof" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseRoof.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IWheel" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWheel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RectWheel" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RectWheel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SquareWheel" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SquareWheel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car" Collapsed="true">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAGQAAAAAAAIAAAgAAQAEgAKAAAAIEAAAACI=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionRect" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAIAAAAAAEEAAAAAAAgAEAABAAAAAAAAAAIA=</HashCode>
+      <FileName>CollisionRect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location" Collapsed="true">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAYAAAAAAAYAA=</HashCode>
+      <FileName>Location.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkAACEAAAAAAAAAAMAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlueColor" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>BlueColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IColorable" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>IColorable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenColor" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>GreenColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackColor" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>BlackColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obstacle" Collapsed="true">
+    <Position X="4.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAIAAAAAAAAEAAEAAQgAAAAAAAA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IncreaseObstacle" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>IncreaseObstacle.h</FileName>
+      <NewMemberFileName>DecreaseObstacle.h</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecreaseObstacle" Collapsed="true">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAA=</HashCode>
+      <FileName>DecreaseObstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

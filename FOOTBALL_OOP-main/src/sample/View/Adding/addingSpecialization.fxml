@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="168.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Adding.AddingSpecialization">
+   <children>
+      <Label layoutX="29.0" layoutY="14.0" text="Добавление новой специализации">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" layoutX="226.0" layoutY="69.0" />
+      <Label layoutX="29.0" layoutY="71.0" text="Введите название:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-4.0" layoutY="50.0" prefHeight="9.0" prefWidth="442.0" />
+      <Button layoutX="226.0" layoutY="106.0" mnemonicParsing="false" onAction="#onPressedAddButton" prefHeight="25.0" prefWidth="149.0" text="Добавить" />
+   </children>
+</AnchorPane>
