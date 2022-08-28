@@ -1,0 +1,11 @@
+abs 5
+0 sit
+1 sed
+0 consectetur
+1 ut
+1 dolore
+1 enim
+1 norm
+1 wordNonText
+0 duis
+1 elit
